@@ -2,17 +2,21 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="PokedexRow">
-        <State />
-      </entry>
-      <entry key="PokemonListScreen">
-        <State />
-      </entry>
-      <entry key="SearchBar">
-        <State />
-      </entry>
       <entry key="app">
-        <State />
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="$USER_HOME$/.android/avd/Small_API_33.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2023-06-30T00:04:29.649095944Z" />
+        </State>
       </entry>
     </value>
   </component>

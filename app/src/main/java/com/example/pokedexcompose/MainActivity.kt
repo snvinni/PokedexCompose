@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.remember
 import androidx.compose.ui.graphics.Color
+import androidx.core.view.WindowCompat
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -20,6 +21,12 @@ import java.util.Locale
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        WindowCompat.setDecorFitsSystemWindows(
+            window,
+            false
+        )
+
         setContent {
             JetpackComposePokedexTheme {
                 val navController = rememberNavController()
